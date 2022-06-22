@@ -8,7 +8,7 @@ function diceRoll() {
 function updateImg(classs, n) {
   document
     .querySelector(classs) 
-    .setAttribute("src", "images/dice" + n + ".png");
+    .setAttribute("src", "dice" + n + ".png");
 }
 
 function displayResult(result) {
